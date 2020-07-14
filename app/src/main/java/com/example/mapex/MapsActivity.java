@@ -9,11 +9,17 @@ import androidx.fragment.app.FragmentActivity;
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Camera;
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.graphics.Point;
 import android.location.Location;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -34,8 +40,11 @@ import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.Projection;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.UiSettings;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -53,6 +62,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -83,6 +93,13 @@ public class MapsActivity extends FragmentActivity
 
     //권한 요청 코드
     public static final int REQUEST_CODE_PERMISSONS = 1000;
+    final static int REQUST_MARK = 101;
+
+    Location currentLocation, cLocation;
+
+    ArrayList<CenterData> centerList;
+    int zoom;
+    boolean isMapLoaded;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -90,6 +107,8 @@ public class MapsActivity extends FragmentActivity
         setContentView(R.layout.activity_maps);
 
         SearchView searchView = findViewById(R.id.sv_location);
+        centerList = GeoData.getAddressData();
+        zoom=14;
 
         if (mGoogleApiClient == null) {
             mGoogleApiClient = new GoogleApiClient.Builder(this)
@@ -114,6 +133,29 @@ public class MapsActivity extends FragmentActivity
                 if (isChecked)
                     mMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
                 else mMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+            }
+        });
+
+        ToggleButton b_showCenter = findViewById(R.id.b_showCenter);
+        b_showCenter.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if(isChecked){
+                    mMap.setOnCameraIdleListener(new GoogleMap.OnCameraIdleListener() {
+                        @Override
+                        public void onCameraIdle() {
+                            int idsZoom=(int)(mMap.getCameraPosition().zoom);
+                            Log.d("sh", "idsZoom:"+idsZoom);
+                            if(zoom != idsZoom && idsZoom > 10){
+                                zoom=idsZoom;
+                                showMap(currentLocation);
+                            }
+                        }
+                    });
+                    showMap(cLocation);
+                }else{
+
+                }
             }
         });
 
@@ -243,6 +285,7 @@ public class MapsActivity extends FragmentActivity
         ui.setZoomControlsEnabled(true);
         ui.setCompassEnabled(true);
         ui.setMyLocationButtonEnabled(true);
+
     }
 
     @Override
@@ -280,6 +323,7 @@ public class MapsActivity extends FragmentActivity
                         if (location != null) {
                             //현재 위치
                             LatLng myLocation = new LatLng(location.getLatitude(), location.getLongitude());
+
                             mMap.addMarker(new MarkerOptions()
                                     .position(myLocation)
                                     .title("현재 위치"));
@@ -306,6 +350,126 @@ public class MapsActivity extends FragmentActivity
                 }
                 return;
         }
+    }
+
+
+    private void toast(String msg){
+        Toast toast=Toast.makeText(this, msg, Toast.LENGTH_SHORT);
+        toast.show();
+    }
+
+
+    private void showMap(Location location){
+        if(location != null){
+            LatLng latLng=new LatLng(location.getLatitude(), location.getLongitude());
+            CameraPosition position=new CameraPosition.Builder().target(latLng).zoom(zoom).build();
+            mMap.moveCamera(CameraUpdateFactory.newCameraPosition(position));
+
+            mMap.clear();
+            mMap.addMarker(new MarkerOptions().position(latLng).title("현재 위치").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA)));
+
+            mMap.setOnMapLoadedCallback(new GoogleMap.OnMapLoadedCallback() {
+                @Override
+                public void onMapLoaded() {
+                    isMapLoaded=true;
+                    drawCircle();
+                }
+            });
+
+            if(isMapLoaded){
+                drawCircle();
+            }
+        }
+
+
+        if(centerList != null && centerList.size()>0){
+            Bitmap bitmap= BitmapFactory.decodeResource(getResources(), R.drawable.ic_center);
+            for(int i=0; i<centerList.size(); i++){
+                LatLng centerLatLng=new LatLng(centerList.get(i).centerLat, centerList.get(i).centerLng);
+
+                //MarkerOptions mo = new MarkerOptions();
+                //mo.title(centerList.get(i).centerName);
+                //mo.snippet(centerList.get(i).centerAdd);
+                //mo.snippet(centerList.get(i).centerNum);
+                //mo.position(centerLatLng);
+                //mMap.addMarker(mo);
+
+                mMap.addMarker(new MarkerOptions().position(centerLatLng).title(centerList.get(i).centerName).snippet(centerList.get(i).centerAdd).icon(BitmapDescriptorFactory.fromBitmap(bitmap)));
+            }
+        }
+    }
+
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mGoogleApiClient.connect();
+    }
+
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        if(mGoogleApiClient.isConnected()){
+            mGoogleApiClient.disconnect();
+        }
+    }
+
+
+    private static final double EARTH_RADIUS=6378100.0;
+    private int offset;
+
+
+    private int convertMetersToPixels(double lat, double lng, double radiusInMeters){
+        double lat1=radiusInMeters / EARTH_RADIUS;
+        double lng1=radiusInMeters / (EARTH_RADIUS*Math.cos((Math.PI*lat/180)));
+        double lat2=lat+lat1*180/Math.PI;
+        double lng2=lng+lng1*180/Math.PI;
+
+
+        Point p1=mMap.getProjection().toScreenLocation(new LatLng(lat, lng));
+        Point p2=mMap.getProjection().toScreenLocation(new LatLng(lat2, lng2));
+        return Math.abs(p1.x - p2.x);
+    }
+
+
+    private LatLng getCoords(double lat, double lng){
+        LatLng latLng=new LatLng(lat, lng);
+        Projection projection=mMap.getProjection();
+        Point p=projection.toScreenLocation(latLng);
+        p.set(p.x, p.y+offset);
+        return  projection.fromScreenLocation(p);
+    }
+
+
+    private Bitmap getCircleBitmap(LatLng latLng, int r){
+        Paint paint=new Paint(Paint.ANTI_ALIAS_FLAG);
+        paint.setColor(0x110000FF);
+        paint.setStyle(Paint.Style.FILL);
+
+        Paint paint1=new Paint(Paint.ANTI_ALIAS_FLAG);
+        paint1.setColor(0xFF0000FF);
+        paint1.setStyle(Paint.Style.STROKE);
+
+        int radius=offset=convertMetersToPixels(latLng.latitude, latLng.longitude, r);
+
+        Bitmap bitmap=Bitmap.createBitmap(radius*2, radius*2, Bitmap.Config.ARGB_8888);
+        Canvas c=new Canvas(bitmap);
+        c.drawCircle(radius, radius, radius, paint);
+        c.drawCircle(radius, radius, radius, paint1);
+
+        return bitmap;
+    }
+
+
+    private void drawCircle(){
+        LatLng circleLatLng=new LatLng(currentLocation.getLatitude(), currentLocation.getLongitude());
+        int radius=1000;
+        Bitmap bitmap=getCircleBitmap(circleLatLng, radius);
+        MarkerOptions markerOptions=new MarkerOptions();
+        markerOptions.position(getCoords(circleLatLng.latitude, circleLatLng.longitude));
+        markerOptions.icon(BitmapDescriptorFactory.fromBitmap(bitmap));
+        mMap.addMarker(markerOptions);
     }
 }
 
