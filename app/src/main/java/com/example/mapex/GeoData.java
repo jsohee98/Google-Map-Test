@@ -1478,11 +1478,963 @@ public class GeoData {
         list.add(data);
 
         data=new CenterData();
+        data.centerName="자작나무숲 심리상담센터";
+        data.centerLat=37.674246;
+        data.centerLng=127.052917;
+        data.centerAdd="서울특별시 노원구 상계1동";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="한국게슈탈트상담심리";
+        data.centerLat=37.663910;
+        data.centerLng=127.028472;
+        data.centerAdd="";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="심리상담센터헤세드";
+        data.centerLat=37.660544;
+        data.centerLng=127.073111;
+        data.centerAdd="서울특별시 노원구";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="보듬살이심리상담센터";
+        data.centerLat=37.658140;
+        data.centerLng=127.074933;
+        data.centerAdd="서울특시 중계4동";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="치유본심리상담센터";
+        data.centerLat=37.657900;
+        data.centerLng=127.048666;
+        data.centerAdd="";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="심리미술연구소분트";
+        data.centerLat=37.655496;
+        data.centerLng=127.042593;
+        data.centerAdd="";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="허그맘 허그인 심리상담센터 노원점";
+        data.centerLat=37.657179;
+        data.centerLng=127.065367;
+        data.centerAdd="서울특별시 노원구";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="맑은빛언어상담심리연구소";
+        data.centerLat=37.650567;
+        data.centerLng=127.061116;
+        data.centerAdd="상계6.7동 서울특별시 노원구";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="심리상담소 빛";
+        data.centerLat=37.648385;
+        data.centerLng=127.061970;
+        data.centerAdd="서울특별시 노원구";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="브니엘미술심리상담센터";
+        data.centerLat=37.647082;
+        data.centerLng=127.048787;
+        data.centerAdd="서울특별시 도봉구";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="";
+        data.centerLat=37.520908;
+        data.centerLng=127.027881;
+        data.centerAdd="";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="심리상담공간 모모";
+        data.centerLat=37.645171;
+        data.centerLng=127.020315;
+        data.centerAdd="서울특별시 강북구";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="지혜의나무 자성심리상담센터";
+        data.centerLat=37.639057;
+        data.centerLng=127.027393;
+        data.centerAdd="서울특별시 강북구";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="엠피스심리상담연구소";
+        data.centerLat=37.640204;
+        data.centerLng=127.063908;
+        data.centerAdd="서울특별시 노원구";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="우리마음심리상담소";
+        data.centerLat=37.642369;
+        data.centerLng=127.068734;
+        data.centerAdd="서울특별시 노원구";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="늘해랑인지심리연구소";
+        data.centerLat=37.624789;
+        data.centerLng=127.027232;
+        data.centerAdd="서울특별시 강북구";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="심리상담공간 봄동";
+        data.centerLat=37.627897;
+        data.centerLng=127.074043;
+        data.centerAdd="서울특별시 노원구";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="ART. 마주함 미술심리연구소";
+        data.centerLat=37.620697;
+        data.centerLng=127.019687;
+        data.centerAdd="서울특별시 강북구";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="나무그늘발달및심리상담센터";
+        data.centerLat=37.617897;
+        data.centerLng=127.074255;
+        data.centerAdd="서울특별시 노원구";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="(사)한국명상심리상담연구원";
+        data.centerLat=37.604370;
+        data.centerLng=126.963571;
+        data.centerAdd="세검정로 서울특별시 종로구";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="허그맘 하남센터";
+        data.centerLat=37.567290;
+        data.centerLng=127.188949;
+        data.centerAdd="망월동 경기도 하남시";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="정신보건센터";
+        data.centerLat=37.564914;
+        data.centerLng=127.174266;
+        data.centerAdd="강일동 서울특별시 강동구";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="학습심리상담센터 티움";
+        data.centerLat=37.566206;
+        data.centerLng=127.189324;
+        data.centerAdd="경기도 하남시 망월동 1079-1";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="한국하프심리연구소";
+        data.centerLat=37.554915;
+        data.centerLng=127.154086;
+        data.centerAdd="명일2동 서울특별시 강동구";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="소망나무와열매 아동청소년상담센터";
+        data.centerLat=37.554085;
+        data.centerLng=127.155481;
+        data.centerAdd="동남로75길 서울특별시 강동구 명일동";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="밀알언어심리발달상담소";
+        data.centerLat=37.552533;
+        data.centerLng=127.125694;
+        data.centerAdd="서울특별시 강동구 암사동 509";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="에꼬메색채심리연구소";
+        data.centerLat=37.552831;
+        data.centerLng=127.129004;
+        data.centerAdd="암사동 463-7번지 2층 강동구 서울특별시 KR";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="항복심리연구소";
+        data.centerLat=37.552698;
+        data.centerLng=127.142445;
+        data.centerAdd="명일동 312-35번지 2호 강동구 서울특별시 KR";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="평인심리상담연구소";
+        data.centerLat=37.552562;
+        data.centerLng=127.148281;
+        data.centerAdd="서울특별시 강동구 명일1동 15";
+        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="(주)강점코칭심리";
+        data.centerLat=37.546097;
+        data.centerLng=127.128884;
+        data.centerAdd="천호동 308-3번지 강점빌딩 강동구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="신은혜심리상담센터";
+        data.centerLat=37.544804;
+        data.centerLng=127.129399;
+        data.centerAdd="서울특별시 강동구 천호동 364-9번지 2층 202호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="동은아동청소년심리상담센터";
+        data.centerLat=37.543987;
+        data.centerLng=127.148539;
+        data.centerAdd="길동 53번지 502동 1106호 삼익파크 강동구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="은빛심리상담센터";
+        data.centerLat=37.540993;
+        data.centerLng=127.124764;
+        data.centerAdd="서울특별시 강동구 천호동 올림픽로 660 505호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="심리상담연구소";
+        data.centerLat=37.540108;
+        data.centerLng=127.124249;
+        data.centerAdd="서울특별시 강동구 천호동 429 2번지 2호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="심리상담서비스협동조합 봄";
+        data.centerLat=37.536978;
+        data.centerLng=127.123047;
+        data.centerAdd="서울특별시 강동구 성내동 78-11";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="김연우부부상담심리센터";
+        data.centerLat=37.536145;
+        data.centerLng=127.131680;
+        data.centerAdd="성내동 163-16번지 2층 202호 경남빌딩 강동구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="뉴심리연구소";
+        data.centerLat=37.531869;
+        data.centerLng=127.140275;
+        data.centerAdd="둔촌동 470번지 401호 한승리치빌 강동구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="미술심리치료연구소";
+        data.centerLat=37.530692;
+        data.centerLng=127.140041;
+        data.centerAdd="서울특별시 둔촌2동";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="신창민 심리운동센터";
+        data.centerLat=37.530568;
+        data.centerLng=127.123006;
+        data.centerAdd="서울특별시 강동구 성내동 539-3";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="허그맘 강동";
+        data.centerLat=37.530506;
+        data.centerLng=127.123709;
+        data.centerAdd="하늘채아파트상가 2층 강동구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="";
+        data.centerLat=37.520908;
+        data.centerLng=127.027881;
+        data.centerAdd="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="행복심리상담연구소 앤몰입";
+        data.centerLat=37.525858;
+        data.centerLng=127.134183;
+        data.centerAdd="성내동 429-23번지 강동구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="청아심리상담센터";
+        data.centerLat=37.516995;
+        data.centerLng=127.105273;
+        data.centerAdd="서울특별시 송파구 신천동 11-10";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="세인임상심리연구소";
+        data.centerLat=37.511027;
+        data.centerLng=127.107136;
+        data.centerAdd="서울특별시 송파구 송파동 31-2";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="자작나무심리상담센터";
+        data.centerLat=37.510743;
+        data.centerLng=127.124118;
+        data.centerAdd="방이동 201-2번지 302호 금양빌딩 송파구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="행복한심리상담연구소";
+        data.centerLat=37.509208;
+        data.centerLng=127.118099;
+        data.centerAdd="방이동 129-12번지 302호 포유빌5차 송파구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="한국심리연구소";
+        data.centerLat=37.509379;
+        data.centerLng=127.125265;
+        data.centerAdd="방이동 207-8번지 희정빌딩 401호 송파구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="일상 임상심리연구소";
+        data.centerLat=37.504320;
+        data.centerLng=127.105990;
+        data.centerAdd="서울특별시 송파구 석촌동 우전빌딩 4층 401호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="예담심리상담연구소";
+        data.centerLat=37.503353;
+        data.centerLng=127.103912;
+        data.centerAdd="석촌동 265-8번지 송파구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="심리상담센터다감";
+        data.centerLat=37.503922;
+        data.centerLng=127.108283;
+        data.centerAdd="석촌동 290-2번지 3층 범양빌딩 송파구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="이기원 뉴라이프 심리상담센터";
+        data.centerLat=37.495793;
+        data.centerLng=127.121754;
+        data.centerAdd="서울특별시 송파구 가락동 77-4 KCC송파웰츠타워 203호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="세온마음연구소(심리상담)";
+        data.centerLat=37.495793;
+        data.centerLng=127.124262;
+        data.centerAdd="서울특별시 송파구 가락동 중대로 150";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="드림심리상담센터 드림영유아발달연구소";
+        data.centerLat=37.495395;
+        data.centerLng=127.123760;
+        data.centerAdd="서울특별시 송파구 가락동 123 27 돈디빌딩 4층";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="심상화심리상담연구소";
+        data.centerLat=37.492779;
+        data.centerLng=127.127701;
+        data.centerAdd="서울특별시 송파구 가락2동 동남로 155 방주빌딩 4층";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="(사) 라파심리상담센터 부설 라파미술치료연구원";
+        data.centerLat=37.488572;
+        data.centerLng=127.104127;
+        data.centerAdd="서울특별시 강남구 수서동 광평로 295";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="국제심리연구원";
+        data.centerLat=37.488743;
+        data.centerLng=127.115520;
+        data.centerAdd="문정동 150번지 217동 104호 올림픽훼밀리타운아파트 송파구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="더봄 뇌건강 신경심리센터 & 인지재활연구소 문정센터";
+        data.centerLat=37.485843;
+        data.centerLng=127.120607;
+        data.centerAdd="서울특별시 송파구 법원로 114 엠스테이트 B동 602호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="울산심리상담연구소";
+        data.centerLat=37.487890;
+        data.centerLng=127.133147;
+        data.centerAdd="서울특별시 송파구 문정동 118";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="숨미술심리상담연구소";
+        data.centerLat=37.484820520908;
+        data.centerLng=127.125838;
+        data.centerAdd="문정동 642-3번지 B동 12층 1216호 문정SK V1호 GL메트로시티 송파구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="위캔발달지원센터";
+        data.centerLat=37.503581;
+        data.centerLng=127.138020;
+        data.centerAdd="오금동 126-4번지 송파구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="심리상담교육연구소해듦(주)";
+        data.centerLat=37.500259;
+        data.centerLng=127.142124;
+        data.centerAdd="송파2동 27번지 KR 서울특별시 송파구 마천동 1호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="로고스상담센터";
+        data.centerLat=37.493139;
+        data.centerLng=127.134467;
+        data.centerAdd="서울특별시 송파구 가락동 189-23";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="아리심리상담센터";
+        data.centerLat=37.493329;
+        data.centerLng=127.146491;
+        data.centerAdd="거여동 36-4번지 거여동 4층 송파구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="이화새빛발달센터";
+        data.centerLat=37.489959;
+        data.centerLng=127.143619;
+        data.centerAdd="거여동 293-1번지 207호 세신거여훼미리타운 송파구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="한사랑심리상담센터 구)위례이주은센터";
+        data.centerLat=37.472759;
+        data.centerLng=127.141804;
+        data.centerAdd="경기도 성남시 수정구 창곡동 509-2 KR B동 605호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="희망학습심리상담소";
+        data.centerLat=37.668347;
+        data.centerLng=126.798599;
+        data.centerAdd="일산동구 풍동 1273-6번지 8동 402호 중앙프라자 고양시 경기도 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="풍동에듀플렉스 심리상담연구소";
+        data.centerLat=37.667396;
+        data.centerLng=126.799200;
+        data.centerAdd="경기도 고양시 일산동구 풍동 1279-3";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="어울림심리지원센터";
+        data.centerLat=37.663999;
+        data.centerLng=126.798770;
+        data.centerAdd="경기도 고양시 일산동구 풍동 1293";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="조이학습심리상담";
+        data.centerLat=37.656767;
+        data.centerLng=126.789136;
+        data.centerAdd="경기도 고양시 일산동구 일산로 228 KR 201~2호 강서빌딩";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="심리상담센터 빈";
+        data.centerLat=37.656406;
+        data.centerLng=126.774392;
+        data.centerAdd="경기도 고양시 일산동구 장항동 848-1번지 KR 현대타운 빌 7층 732호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="사주심리상담원";
+        data.centerLat=37.654598;
+        data.centerLng=126.772500;
+        data.centerAdd="일산동구 장항동 868번지 웨스턴돔2케이 117-2호 고양시 경기도 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="일산심리치료연구소";
+        data.centerLat=37.654546;
+        data.centerLng=126.777328;
+        data.centerAdd="경기도 고양시 일산동구 강석로 153 일산신용협동조합 10414";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="연세하야심리상담센터";
+        data.centerLat=37.652119;
+        data.centerLng=126.774066;
+        data.centerAdd="경기도 고양시 일산동구 장항2동";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="언어심리상담센터 위드";
+        data.centerLat=37.652222;
+        data.centerLng=126.776806;
+        data.centerAdd="경기도 고양시 일산동구 장항동 893-1번지 위너스21 508-2호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="발달심리치료연구소";
+        data.centerLat=37.651706;
+        data.centerLng=126.778306;
+        data.centerAdd="경기도 고양시 일산동구 마두동 802-1";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="안희정심리상담연구소";
+        data.centerLat=37.652067;
+        data.centerLng=126.778698;
+        data.centerAdd="일산동구 마두동 802번지 A동 504호 뉴삼창마트 고양시 경기도 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="유해피 아동,청소년,성인 심리상담센터";
+        data.centerLat=37.650105;
+        data.centerLng=126.780198;
+        data.centerAdd="경기도 고양시 일산동구 중앙로 1130 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="기쁨심리상담센터";
+        data.centerLat=37.647987;
+        data.centerLng=126.785352;
+        data.centerAdd="일산동구 백석동 1209-2번지 202호 고양시 경기도 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="최정금심리학습클리닉";
+        data.centerLat=37.648142;
+        data.centerLng=126.790701;
+        data.centerAdd="경기도 고양시 일산동구 백석1동 백석로108번길 41";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="마녀심리상담소";
+        data.centerLat=37.644319;
+        data.centerLng=126.788483;
+        data.centerAdd="경기도 고양시 일산동구 백석동";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="표현예술심리치료연구소 동행";
+        data.centerLat=37.643286;
+        data.centerLng=126.787178;
+        data.centerAdd="일산동구 백석동 1331번지 617호 영림브레아오피스텔 고양시 경기도 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="심층심리치유연구소";
+        data.centerLat=37.640660;
+        data.centerLng=126.785424;
+        data.centerAdd="일산동구 백석동 1325번지 704호 디아뜨크리스탈오피스텔 고양시 경기도 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="심리상담연구소 동그라미";
+        data.centerLat=37.639503;
+        data.centerLng=126.788449;
+        data.centerAdd="경기도 고양시 일산동구 백석동";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="어울림심리발달치료센터";
+        data.centerLat=37.637686;
+        data.centerLng=126.787823;
+        data.centerAdd="일산동구 백석동 1330번지 103동 521호 브라운스톤일산오피스텔 고양시 경기도 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="온새미심리상담소";
+        data.centerLat=37.704820;
+        data.centerLng=126.757400;
+        data.centerAdd="경기도 파주시 야당동 183-2 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="햇살심리상담센터";
+        data.centerLat=37.693546;
+        data.centerLng=126.765125;
+        data.centerAdd="경기도 고양시 일산서구 탄현동 1485번지 KR 1단지아파트 탄현마을경남 103동 701호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="온새미심리상담소";
+        data.centerLat=37.694157;
+        data.centerLng=126.768901;
+        data.centerAdd="경기도 고양시 일산서구 탄현동 1496-2";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="홍익심리상담연구소";
+        data.centerLat=37.690558;
+        data.centerLng=126.763236;
+        data.centerAdd="일산서구 탄현동 1576-5번지 402호 부건3차아파트 고양시 경기도 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="아이사랑언어심리발달센터";
+        data.centerLat=37.687298;
+        data.centerLng=126.778686;
+        data.centerAdd="일산동구 중산동 1579-1번지 4층 404호 성지프라자 고양시 경기도 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="예술심리치료연구소 공감";
+        data.centerLat=37.678671;
+        data.centerLng=126.766412;
+        data.centerAdd="일산서구 일산동 1062-1번지 뉴타운 상가 401호 고양시 경기도 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="심리상담센터 폭신폭신";
+        data.centerLat=37.672285;
+        data.centerLng=126.758773;
+        data.centerAdd="경기도 고양시 주엽2동 18-2 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="";
+        data.centerLat=37.520908;
+        data.centerLng=127.027881;
+        data.centerAdd="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="심리상담연구소 아인";
+        data.centerLat=37.670926;
+        data.centerLng=126.758344;
+        data.centerAdd="경기도 고양시 일산서구 주화로 88 KR 5 효림빌딩";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="소통과공감언어심리상담센터";
+        data.centerLat=37.670514;
+        data.centerLng=126.761813;
+        data.centerAdd="경기도 고양시 일산서구 주엽동 66-1";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="마음톡심리상담센터";
+        data.centerLat=37.669688;
+        data.centerLng=126.763835;
+        data.centerAdd="일산서구 주엽동 72-2번지 309호 주엽동한솔코아주 고양시 경기도 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="위밍쌤심리상담소";
+        data.centerLat=37.666331;
+        data.centerLng=126.765074;
+        data.centerAdd="경기도 고양시 일산서구 주엽동 번지 상가동 86 KR 2층 5호 6호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="울림심리상담센터";
+        data.centerLat=37.662665;
+        data.centerLng=126.769250;
+        data.centerAdd="경기도 고양시 일산동구 장항동 776-1번지 일부 메탈릭타워 7층 703호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="강서영 심리상담센터";
+        data.centerLat=37.661942;
+        data.centerLng=126.769967;
+        data.centerAdd="경기도 고양시 일산동구 무궁화로 42-38 범진 빌딩 307호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="심리카페멘토 일산";
+        data.centerLat=37.659670;
+        data.centerLng=126.769771;
+        data.centerAdd="일산동구 장항동 769-2번지 206호 루비튜스데이 고양시 경기도 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="이화언어심리연구소";
+        data.centerLat=37.711811;
+        data.centerLng=126.750104;
+        data.centerAdd="경기도 파주시 야당동";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="문정에듀플렉스 심리상담연구소";
+        data.centerLat=37.708076;
+        data.centerLng=126.734483;
+        data.centerAdd="동패동 1758번지 동패동신한프라자 상가10층 1001동 1호 파주시 경기도 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="행복한아동심리언어센터";
+        data.centerLat=37.712488;
+        data.centerLng=126.719424;
+        data.centerAdd="경기 파주시 동패동 1758-4";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="허그맘 일산센터";
+        data.centerLat=37.675677;
+        data.centerLng=126.748645;
+        data.centerAdd="경기도 고양시 일산서구 대화동 2223-2";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="하늘스케치심리상담센터";
+        data.centerLat=37.676473;
+        data.centerLng=126.750507;
+        data.centerAdd="경기도 고양시 일산서구 대화동 2198-1";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="마음나무 심리상담센터";
+        data.centerLat=37.651871;
+        data.centerLng=126.873675;
+        data.centerAdd="경기도 고양시 덕양구 원흥동 권율대로 685 SIB타워 4층 403호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="행복한심리상담센터";
+        data.centerLat=37.640892;
+        data.centerLng=126.833405;
+        data.centerAdd="경기도 고양시 덕양구 화정동 886";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="최승이심리상담연구소";
+        data.centerLat=37.639373;
+        data.centerLng=126.832225;
+        data.centerAdd="덕양구 화정동 902-2번지 고양시 경기도 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="마음쉼터심리상담센터미술치유연구소";
+        data.centerLat=37.638205;
+        data.centerLng=126.831635;
+        data.centerAdd="경기도 고양시 덕양구 화정동 968번지 KR 21 비젼타워 4층 404호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="늘품아동청소년상담센터";
+        data.centerLat=37.635874;
+        data.centerLng=126.833459;
+        data.centerAdd="경기도 고양시 덕양구 화정동 965";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="수정아동상담센터";
+        data.centerLat=37.634083;
+        data.centerLng=126.832743;
+        data.centerAdd="경기도 고양시 덕양구 화정동";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="마인드스토리심리상담센터";
+        data.centerLat=37.634015;
+        data.centerLng=126.833515;
+        data.centerAdd="경기도 고양시 덕양구 화정동 975-1";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="테라피수";
+        data.centerLat=37.631024;
+        data.centerLng=126.832228;
+        data.centerAdd="경기도 고양시 덕양구 화정동 1000-1 번지 205호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="심리상담센터 숲";
+        data.centerLat=37.616340;
+        data.centerLng=126.832399;
+        data.centerAdd="덕양구 행신동 712번지 203호 골드프라자 고양시 경기도 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="마음나무 심리상담센터";
+        data.centerLat=37.651942;
+        data.centerLng=126.873924;
+        data.centerAdd="경기도 고양시 덕양구 원흥동 권율대로 685 SIB타워 4층 403호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="고양성실아동청소년심리지원센터";
+        data.centerLat=37.647121;
+        data.centerLng=126.897379;
+        data.centerAdd="경기도 고양시 덕양구 동산동";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="ME人심리상담카페";
+        data.centerLat=37.634071;
+        data.centerLng=126.926733;
+        data.centerAdd="서울특별시 은평구 진관동 107";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="은평연세심리언어센터";
+        data.centerLat=37.622515;
+        data.centerLng=126.925360;
+        data.centerAdd="불광동 356-29번지 3층 은평구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="행복한I심리치료센터";
+        data.centerLat=37.616396;
+        data.centerLng=126.924502;
+        data.centerAdd="서울특별시 은평구 대조동 188-3";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="심리상담센터 숲";
+        data.centerLat=37.614493;
+        data.centerLng=126.911627;
+        data.centerAdd="서울특별시 은평구 구산동 200-3번지 3층";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="나를찾는심리상담연구소 다솜";
+        data.centerLat=37.612725;
+        data.centerLng=126.928107;
+        data.centerAdd="서울특별시 은평구 대조동 6-5";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="휴 가족상담센터";
+        data.centerLat=37.612045;
+        data.centerLng=126.939780;
+        data.centerAdd="서울특별시 은평구 녹번동 진흥로 272-14 B101호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="126.939780";
+        data.centerLat=37.604702;
+        data.centerLng=126.936003;
+        data.centerAdd="서울특별시 은평구 녹번동 21-134 래미안베라힐즈 804호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="(사)한국명상심리상담연구원";
+        data.centerLat=37.605110;
+        data.centerLng=126.963640;
+        data.centerAdd="서울특별시 종로구 신영동 평창문화로 12-6 72-3";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="심리상담센터 숨";
+        data.centerLat=37.602254;
+        data.centerLng=126.929308;
+        data.centerAdd="응암동 81-3번지 4층 은평구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="허그맘아동청소년심리센터";
+        data.centerLat=37.603070;
+        data.centerLng=126.926733;
+        data.centerAdd="서울특별시 은평구 응암동 96-1";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="HASH 심리연구소";
+        data.centerLat=37.598445;
+        data.centerLng=126.923300;
+        data.centerAdd="서울특별시 은평구 응암동 백련산로 126-1";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="(주)인공감심리발달센터";
+        data.centerLat=37.592733;
+        data.centerLng=126.917464;
+        data.centerAdd="응암동 577-16번지 2층 203호 은평구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="한국통합예술심리치료센터";
+        data.centerLat=37.583347;
+        data.centerLng=126.915232;
+        data.centerAdd="북가좌동 280-3번지 서대문구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="명우예술심리상담센터";
+        data.centerLat=37.582395;
+        data.centerLng=126.924673;
+        data.centerAdd="홍은동 401-15번지 2층 서대문구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="마음힘 키우기 미술심리";
+        data.centerLat=37.583891;
+        data.centerLng=126.936003;
+        data.centerAdd="서울특별시 서대문구 홍은2동 426 -dong";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="기연심리상담센터";
+        data.centerLat=37.552370;
+        data.centerLng=127.011918;
+        data.centerAdd="신당동 373-114번지 303호 프레지덴트빌딩 중구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="동그라미유아심리연구소";
+        data.centerLat=37.544477;
+        data.centerLng=127.003593;
+        data.centerAdd="한남동 788-3번지 용산구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
         data.centerName="";
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1490,7 +2442,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1498,7 +2449,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1506,7 +2456,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1514,7 +2463,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1522,7 +2470,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1530,7 +2477,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1538,7 +2484,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1546,7 +2491,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1554,7 +2498,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1562,7 +2505,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1570,7 +2512,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1578,7 +2519,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1586,7 +2526,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1594,7 +2533,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1602,7 +2540,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1610,7 +2547,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1618,7 +2554,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1626,7 +2561,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1634,7 +2568,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1642,7 +2575,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1650,7 +2582,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1658,7 +2589,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1666,7 +2596,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1674,7 +2603,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1682,7 +2610,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1690,7 +2617,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1698,7 +2624,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1706,7 +2631,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1714,7 +2638,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1722,7 +2645,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1730,7 +2652,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1738,7 +2659,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1746,7 +2666,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1754,7 +2673,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1762,7 +2680,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1770,7 +2687,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1778,7 +2694,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1786,7 +2701,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1794,7 +2708,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1802,7 +2715,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1810,7 +2722,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1818,7 +2729,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1826,7 +2736,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1834,7 +2743,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1842,7 +2750,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1850,7 +2757,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1858,7 +2764,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1866,7 +2771,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1874,7 +2778,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1882,7 +2785,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1890,7 +2792,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1898,7 +2799,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1906,7 +2806,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1914,7 +2813,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1922,7 +2820,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1930,7 +2827,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1938,7 +2834,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1946,7 +2841,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1954,7 +2848,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1962,7 +2855,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1970,7 +2862,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1978,7 +2869,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1986,7 +2876,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -1994,7 +2883,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -2002,7 +2890,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -2010,7 +2897,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -2018,7 +2904,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -2026,7 +2911,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -2034,7 +2918,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -2042,7 +2925,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -2050,7 +2932,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -2058,7 +2939,6 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
         list.add(data);
 
         data=new CenterData();
@@ -2066,7 +2946,69 @@ public class GeoData {
         data.centerLat=37.520908;
         data.centerLng=127.027881;
         data.centerAdd="";
-        data.centerNum="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="";
+        data.centerLat=37.520908;
+        data.centerLng=127.027881;
+        data.centerAdd="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="";
+        data.centerLat=37.520908;
+        data.centerLng=127.027881;
+        data.centerAdd="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="";
+        data.centerLat=37.520908;
+        data.centerLng=127.027881;
+        data.centerAdd="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="";
+        data.centerLat=37.520908;
+        data.centerLng=127.027881;
+        data.centerAdd="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="";
+        data.centerLat=37.520908;
+        data.centerLng=127.027881;
+        data.centerAdd="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="";
+        data.centerLat=37.520908;
+        data.centerLng=127.027881;
+        data.centerAdd="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="";
+        data.centerLat=37.520908;
+        data.centerLng=127.027881;
+        data.centerAdd="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="";
+        data.centerLat=37.520908;
+        data.centerLng=127.027881;
+        data.centerAdd="";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="";
+        data.centerLat=37.520908;
+        data.centerLng=127.027881;
+        data.centerAdd="";
         list.add(data);
         return list;
     }
