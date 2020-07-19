@@ -92,14 +92,14 @@ public class MapsActivity extends FragmentActivity
     */
 
     //위치 정보 얻기
-    private FusedLocationProviderClient mFusedLocationClient;
+    private FusedLocationProviderClient mFusedLocationClient, providerClient;
 
     //권한 요청 코드
     public static final int REQUEST_CODE_PERMISSONS = 1000;
     final static int REQUST_MARK = 101;
 
     //Location currentLocation, cLocation;
-    Location myLocation;
+    Location currentLocation;
 
     ArrayList<CenterData> centerList;
     int zoom;
@@ -128,6 +128,7 @@ public class MapsActivity extends FragmentActivity
         mapFragment.getMapAsync(this);
 
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
+        providerClient=LocationServices.getFusedLocationProviderClient(this);
 
         // 일반 지도, 위성 지도
         ToggleButton b_mapmode = findViewById(R.id.b_mapmode);
@@ -156,93 +157,12 @@ public class MapsActivity extends FragmentActivity
                             }
                         }
                     });*/
-                    showMap(myLocation);
+                    showMap(currentLocation);
                 }else{
                     mMap.clear();
                 }
             }
         });
-
-        /*
-
-        <ToggleButton>
-            android:id="@+id/b_showCurPos"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="ToggleButton"
-            android:background="@drawable/bg_round"
-            android:textOff="현재 위치 숨기기"
-            android:textOn="현재 위치 보이기" />
-
-        // 현재 위치 보이기
-        ToggleButton b_showCurPos = findViewById(R.id.b_showCurPos);
-        b_showCurPos.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                // 권한 체크
-                if (ActivityCompat.checkSelfPermission(MapsActivity.this, Manifest.permission.ACCESS_FINE_LOCATION)
-                        != PackageManager.PERMISSION_GRANTED &&
-                        ActivityCompat.checkSelfPermission(MapsActivity.this, Manifest.permission.ACCESS_COARSE_LOCATION)
-                                != PackageManager.PERMISSION_GRANTED) {
-                    ActivityCompat.requestPermissions(MapsActivity.this,
-                            new String[]{Manifest.permission.ACCESS_FINE_LOCATION,
-                                    Manifest.permission.ACCESS_COARSE_LOCATION},
-                            REQUEST_CODE_PERMISSONS);
-                    return;
-                }
-
-                mMap.setMyLocationEnabled(isChecked);
-            }
-        });*/
-
-        /*
-        ToggleButton b_showCenter = findViewById(R.id.b_showCenter);
-        b_showCenter.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-             @Override
-             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                 Intent intent = new Intent (this, Maps2Activity.class);
-
-             }
-        }*/
-/*
-        /////////////////////////////////////////////////////////////////////////////////////////////
-        spType = findViewById(R.id.sp_type);
-        btFind = findViewById(R.id.bt_find);
-        supportMapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.google_map);
-
-        final String[] placeTypeList = {"atm", "bank", "hospital", "movie_theater", "restaurant"};
-
-        String[] placeNameList = {"ATM", "Bank", "Hospital", "Movie Theater", "Restaurant"};
-
-        spType.setAdapter(new ArrayAdapter<>(this
-                ,android.R.layout.simple_spinner_dropdown_item, placeNameList));
-
-        fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this);
-
-        if (ActivityCompat.checkSelfPermission(this
-                , Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
-
-            getCurrentLocation();
-        } else {
-            ActivityCompat.requestPermissions(this
-                    , new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 44);
-        }
-
-        btFind.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                int i = spType.getSelectedItemPosition();
-                String url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json" +
-                        "?location=" + currentLat + "," + currentLong +
-                        "&radius=5000" + "&types=" + placeTypeList[i] +
-                        "&sensor=true" + "&key=" + getResources().getString(R.string.google_maps_key);
-
-                new PlaceTask().execute(url);
-            }
-        });
-        //////////////////////////////////////////////////////////////////////////////////////
-        */
     }
 
     @Override
@@ -294,7 +214,14 @@ public class MapsActivity extends FragmentActivity
 
     @Override
     public void onConnected(@Nullable Bundle bundle) {
-
+        providerClient.getLastLocation().addOnSuccessListener(this, new OnSuccessListener<Location>() {
+            @Override
+            public void onSuccess(Location location) {
+                location.setLatitude(location.getLatitude());
+                location.setLongitude(location.getLongitude());
+                MapsActivity.this.currentLocation=location;
+            }
+        });
     }
 
     @Override
@@ -335,6 +262,7 @@ public class MapsActivity extends FragmentActivity
                             mMap.moveCamera(CameraUpdateFactory.newLatLng(myLocation));
 
                             mMap.animateCamera(CameraUpdateFactory.zoomTo(14.0f));
+
                         }
                     }
                 });
@@ -365,16 +293,17 @@ public class MapsActivity extends FragmentActivity
     private void showMap(Location location){
         if(location != null){
             LatLng latLng=new LatLng(location.getLatitude(), location.getLongitude());
-            //CameraPosition position=new CameraPosition.Builder().target(latLng).zoom(zoom).build();
-            //mMap.moveCamera(CameraUpdateFactory.newCameraPosition(position));
 
-            //mMap.clear();
             mMap.addMarker(new MarkerOptions().position(latLng).title("현재 위치").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA)));
-            Circle circle = mMap.addCircle(new CircleOptions()
-                .center(latLng)
-                .radius(1000)
-                .strokeColor(Color.RED)
-                .fillColor(Color.BLUE));
+
+            mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+            mMap.animateCamera(CameraUpdateFactory.zoomTo(14.0f));
+
+            //Circle circle = mMap.addCircle(new CircleOptions()
+            //    .center(latLng)
+            //    .radius(1000)
+            //    .strokeColor(Color.RED)
+            //    .fillColor(Color.BLUE));
 
             mMap.setOnMapLoadedCallback(new GoogleMap.OnMapLoadedCallback() {
                 @Override
@@ -393,7 +322,7 @@ public class MapsActivity extends FragmentActivity
         if(centerList != null && centerList.size()>0){
             Bitmap bitmap= BitmapFactory.decodeResource(getResources(), R.drawable.ic_center);
             for(int i=0; i<centerList.size(); i++){
-                LatLng centerLatLng=new LatLng(centerList.get(i).centerLat, centerList.get(i).centerLng);
+                //LatLng centerLatLng=new LatLng(centerList.get(i).centerLat, centerList.get(i).centerLng);
 
                 //MarkerOptions mo = new MarkerOptions();
                 //mo.title(centerList.get(i).centerName);
@@ -402,13 +331,13 @@ public class MapsActivity extends FragmentActivity
                 //mo.position(centerLatLng);
                 //mMap.addMarker(mo);
 
-                mMap.addMarker(new MarkerOptions().position(centerLatLng).title(centerList.get(i).centerName).snippet(centerList.get(i).centerAdd).icon(BitmapDescriptorFactory.fromBitmap(bitmap)));
+                //mMap.addMarker(new MarkerOptions().position(centerLatLng).title(centerList.get(i).centerName).snippet(centerList.get(i).centerAdd).icon(BitmapDescriptorFactory.fromBitmap(bitmap)));
 
-                /*
-                if(centerList.get(i).centerLat<location.getLatitude()+0.02) {
-                    if(centerList.get(i).centerLat>location.getLatitude()-0.02) {
-                        if(centerList.get(i).centerLng<location.getLongitude()+0.02) {
-                            if(centerList.get(i).centerLng>location.getLongitude()-0.02) {
+
+                if(centerList.get(i).centerLat<location.getLatitude()+0.0085) {
+                    if(centerList.get(i).centerLat>location.getLatitude()-0.0085) {
+                        if(centerList.get(i).centerLng<location.getLongitude()+0.0085) {
+                            if(centerList.get(i).centerLng>location.getLongitude()-0.0085) {
                                 LatLng centerLatLng=new LatLng(centerList.get(i).centerLat, centerList.get(i).centerLng);
 
                                 //MarkerOptions mo = new MarkerOptions();
@@ -422,7 +351,7 @@ public class MapsActivity extends FragmentActivity
                             }
                         }
                     }
-                }*/
+                }
             }
         }
     }
@@ -486,32 +415,14 @@ public class MapsActivity extends FragmentActivity
         return bitmap;
     }
 
-    private void drawCircle(){
-        mFusedLocationClient.getLastLocation().addOnSuccessListener(this,
-                new OnSuccessListener<Location>() {
-                    @Override
-                    public void onSuccess(Location location) {
-                        if (location != null) {
-                            //현재 위치
-                            LatLng circleLatLng=new LatLng(location.getLatitude(), location.getLongitude());
-                            int radius=1000;
-                            Bitmap bitmap=getCircleBitmap(circleLatLng, radius);
-                            MarkerOptions markerOptions=new MarkerOptions();
-                            markerOptions.position(getCoords(circleLatLng.latitude, circleLatLng.longitude));
-                            markerOptions.icon(BitmapDescriptorFactory.fromBitmap(bitmap));
-                            mMap.addMarker(markerOptions);
-                        }
-                    }
-                });
-
-        /*
-        LatLng circleLatLng=new LatLng(myLocation.getLatitude(), myLocation.getLongitude());
-        int radius=1000;
-        Bitmap bitmap=getCircleBitmap(circleLatLng, radius);
-        MarkerOptions markerOptions=new MarkerOptions();
+    private void drawCircle() {
+        LatLng circleLatLng = new LatLng(currentLocation.getLatitude(), currentLocation.getLongitude());
+        int radius = 1000;
+        Bitmap bitmap = getCircleBitmap(circleLatLng, radius);
+        MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(getCoords(circleLatLng.latitude, circleLatLng.longitude));
         markerOptions.icon(BitmapDescriptorFactory.fromBitmap(bitmap));
-        mMap.addMarker(markerOptions);*/
+        mMap.addMarker(markerOptions);
     }
 }
 

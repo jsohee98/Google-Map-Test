@@ -2431,10 +2431,94 @@ public class GeoData {
         list.add(data);
 
         data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
+        data.centerName="영호심리상담센터 ";
+        data.centerLat=37.564400;
+        data.centerLng=127.034949;
+        data.centerAdd="서울특별시 성동구 도선동 69";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="서울임상심리연구소";
+        data.centerLat=37.565548;
+        data.centerLng=127.022713;
+        data.centerAdd="서울특별시 중구 황학동 2478";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="서울상담심리연구소";
+        data.centerLat=37.557061;
+        data.centerLng=127.012026;
+        data.centerAdd="서울특별시 중구 신당4동 24 5층 370";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="기연심리상담센터";
+        data.centerLat=37.551890;
+        data.centerLng=127.011898;
+        data.centerAdd="신당동 373-114번지 303호 프레지덴트빌딩 중구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="동그라미유아심리연구소";
+        data.centerLat=37.543716;
+        data.centerLng=127.003560;
+        data.centerAdd="한남동 788-3번지 용산구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="마음뜨락 임상심리센터";
+        data.centerLat=37.541377;
+        data.centerLng=127.016172;
+        data.centerAdd="서울특별시 성동구 옥수동 한림말길 48 옥수중앙하이츠APT상가 3층";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="누리심리학습상담센터";
+        data.centerLat=37.541287;
+        data.centerLng=127.016451;
+        data.centerAdd="서울특별시 성동구 옥수동 233-19번지 2층";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="열린학교상담아카데미";
+        data.centerLat=37.560605;
+        data.centerLng=127.004147;
+        data.centerAdd="장충동2가 186-28번지 우리함께빌딩 5층 중구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="마음중심심리상담소";
+        data.centerLat=37.560406;
+        data.centerLng=126.997483;
+        data.centerAdd="필동3가 21-34번지 303호 필동빌딩 3층 중구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="한국심리상담연구소";
+        data.centerLat=37.536670;
+        data.centerLng=127.006111;
+        data.centerAdd="한남동 707-10번지 용산구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="심리상담연구공간 마음놀이터";
+        data.centerLat=37.534668;
+        data.centerLng=126.989856;
+        data.centerAdd="서울특별시 용산구 183-1 동호프라자 701호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="필로웨일 정신분석심리상담센터";
+        data.centerLat=37.533750;
+        data.centerLng=126.989299;
+        data.centerAdd="서울특별시 용산구 이태원동 34-40 302호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="맑은샘심리상담연구소";
+        data.centerLat=37.530584;
+        data.centerLng=126.969558;
+        data.centerAdd="서울특별시 용산구 한강로동 한강대로 122";
         list.add(data);
 
         data=new CenterData();
@@ -2445,10 +2529,80 @@ public class GeoData {
         list.add(data);
 
         data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
+        data.centerName="엘림심리치료, 놀이치료센터";
+        data.centerLat=37.524526;
+        data.centerLng=126.971489;
+        data.centerAdd="103 용산파크타워 67 1206, 서빙고로 용산구";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="프레즌트심리상담센터";
+        data.centerLat=37.543923;
+        data.centerLng=126.950031;
+        data.centerAdd="공덕동 461번지 B동 803호 마포신영지웰 마포구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="명심리상담연구소";
+        data.centerLat=37.543617;
+        data.centerLng=126.952863;
+        data.centerAdd="서울특별시 마포구 신공덕동 백범로 199 메트로디오빌빌딩 306호";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="한국심리운동협회";
+        data.centerLat=37.541099;
+        data.centerLng=126.962863;
+        data.centerAdd="서울특별시 용산구 효창동 효창원로66길 17";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="해나심리상담연구소";
+        data.centerLat=37.537681;
+        data.centerLng=126.964894;
+        data.centerAdd="원효로2가 1-32번지 용산구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="최인심리치료센터";
+        data.centerLat=37.538175;
+        data.centerLng=126.967083;
+        data.centerAdd="서울특별시 용산구 원효로1가 백범로 341 A동 208호 리첸시아";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="소열심리상담센터";
+        data.centerLat=37.581697;
+        data.centerLng=126.969262;
+        data.centerAdd="서울특별시 종로구 통인동 31-4";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="심리상담내디딤";
+        data.centerLat=37.578872;
+        data.centerLng=126.973556;
+        data.centerAdd="통의동 7-26번지 효자 로7길3-1 종로구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="WPI심리상담코칭센터";
+        data.centerLat=37.581376;
+        data.centerLng=126.988624;
+        data.centerAdd="서울특별시 종로구 원서동 번지 지하 135-23 2층";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="위니캇정신분석산담센터";
+        data.centerLat=37.577138;
+        data.centerLng=126.989840;
+        data.centerAdd="서울특별시 종로구 운니동 138";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="더사랑심리상담센터";
+        data.centerLat=37.575212;
+        data.centerLng=126.988543;
+        data.centerAdd="낙원동 58-1번지 1001호 종로오피스텔 종로구 서울특별시 KR";
         list.add(data);
 
         data=new CenterData();
@@ -2459,10 +2613,73 @@ public class GeoData {
         list.add(data);
 
         data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
+        data.centerName="행복한마음심리상담센터";
+        data.centerLat=37.573992;
+        data.centerLng=126.989029;
+        data.centerAdd="서울특별시 종로구 낙원동 번지 6층 58-3 그린빌딩";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="한국심리치료연구소";
+        data.centerLat=37.575148;
+        data.centerLng=126.973475;
+        data.centerAdd="서울특별시 종로구 적선동 156";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="참마음심리상담센터/문가인 최면연구소";
+        data.centerLat=37.573477;
+        data.centerLng=126.973330;
+        data.centerAdd="서울특별시 종로구 내수동 167 401-3 대우빌딩";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="혜인상담심리연구소";
+        data.centerLat=37.573663;
+        data.centerLng=126.972042;
+        data.centerAdd="내수동 72번지 902호 경희궁의아침3단지 종로구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="참마음심리상담센터";
+        data.centerLat=37.571436;
+        data.centerLng=126.978891027881;
+        data.centerAdd="서울특별시 종로구 종로1.2.3.4가동 종로 19 A동605호 르메이에르 종로";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="한국REBT인지행동치료상담센터";
+        data.centerLat=37.569302;
+        data.centerLng=126.986267;
+        data.centerAdd="서울특별시 종로구 관철동 삼일대로15길 22";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="나행명리상담소";
+        data.centerLat=37.565218;
+        data.centerLng=126.993584;
+        data.centerAdd="서울특별시 중구 인현동1가 을지로16길 39";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="참마음심리상담센터서울점";
+        data.centerLat=37.563130;
+        data.centerLng=126.973154;
+        data.centerAdd="서울특별시 중구 서소문동 58-7";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="지수연EFT심리상담센터";
+        data.centerLat=37.592979;
+        data.centerLng=127.033499;
+        data.centerAdd="종암동 31-15번지 204호 리츠빌 성북구 서울특별시 KR";
+        list.add(data);
+
+        data=new CenterData();
+        data.centerName="엠브레스마인드 심리상담센터 성북직영점";
+        data.centerLat=37.592615;
+        data.centerLng=127.037252;
+        data.centerAdd="서울특별시 성북구 종암동 30";
         list.add(data);
 
         data=new CenterData();
@@ -2473,241 +2690,24 @@ public class GeoData {
         list.add(data);
 
         data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
+        data.centerName="허그맘허그인 심리상담센터 성북점";
+        data.centerLat=37.592516;
+        data.centerLng=127.036293;
+        data.centerAdd="서울특별시 성북구 종암동 30 거산프라자 5층";
         list.add(data);
 
         data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
+        data.centerName="홍아동발달연구소";
+        data.centerLat=37.586201;
+        data.centerLng=126.949106;
+        data.centerAdd="서울특별시 서대문구 홍제2동";
         list.add(data);
 
         data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
-        list.add(data);
-
-        data=new CenterData();
-        data.centerName="";
-        data.centerLat=37.520908;
-        data.centerLng=127.027881;
-        data.centerAdd="";
+        data.centerName="박경미아동발달센터";
+        data.centerLat=37.582534;
+        data.centerLng=126.950648;
+        data.centerAdd="홍제동 26번지 2층 서대문구 서울특별시 KR";
         list.add(data);
 
         data=new CenterData();
